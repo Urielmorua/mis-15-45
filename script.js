@@ -1,5 +1,5 @@
 const fechaEvento = new Date(
-"August 8, 2026 17:00:00"
+"August 8, 2026 18:00:00"
 ).getTime();
 
 const intervalo = setInterval(() => {
