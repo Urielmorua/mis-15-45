@@ -414,13 +414,13 @@ h2{
 .video-fiesta{
 
     margin-top:80px;
+
+    text-align:center;
 }
 
 .video-fiesta video{
 
-    width:100%;
-
-    max-width:450px;
+    width:280px;
 
     border-radius:20px;
 
@@ -429,7 +429,6 @@ h2{
     box-shadow:
     0 0 15px #ff00ff;
 }
-
 
 @media(max-width:768px){
 
