@@ -429,6 +429,43 @@ h2{
     box-shadow:
     0 0 15px #ff00ff;
 }
+.nombre{
+
+    margin-bottom:20px;
+
+    font-size:2.2rem;
+
+    font-family:'Brush Script MT', cursive;
+
+    color:#ffffff;
+
+    text-shadow:
+        0 0 8px #ffffff,
+        0 0 15px #ff00ff,
+        0 0 25px #00ffff;
+
+    animation:brillar 2s infinite alternate;
+}
+
+@keyframes brillar{
+
+    from{
+
+        text-shadow:
+            0 0 8px #ffffff,
+            0 0 15px #ff00ff,
+            0 0 25px #00ffff;
+    }
+
+    to{
+
+        text-shadow:
+            0 0 15px #ffffff,
+            0 0 30px #ff00ff,
+            0 0 45px #00ffff;
+    }
+
+}
 
 @media(max-width:768px){
 
